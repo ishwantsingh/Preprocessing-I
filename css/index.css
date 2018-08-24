@@ -1,1 +1,296 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+}
+.main-container {
+  max-width: 880px;
+  margin: 0 auto;
+}
+.navigation {
+  border: 3px solid #ffa4a2;
+  border-bottom-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  border-top: 0px;
+  padding: 2rem 4.545% 1rem 4.545%;
+  font-size: 2rem;
+  display: flex;
+  width: 60%;
+  margin: 2.27% auto;
+  margin-top: 0;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #e57373;
+}
+.top-data {
+  font-size: 2rem;
+  display: flex;
+  width: 100%;
+  margin: 6rem auto;
+  justify-content: space-between;
+  height: 50rem;
+  background-color: #ffa4a2;
+  border-radius: 3rem;
+}
+.left-top {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid #ffa4a2;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  padding: 2rem 4.545% 1rem 4.545%;
+  border-left: 0px;
+  background-color: #e57373;
+  height: 25rem;
+  align-self: center;
+  width: 25%;
+}
+.left-top h1 {
+  width: 100%;
+  font-size: 2.5rem;
+  font-family: monospace;
+}
+.left-top ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.right-top {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid #ffa4a2;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  padding: 2rem 4.545% 1rem 4.545%;
+  border-right: 0px;
+  background-color: #e57373;
+  height: 40rem;
+  align-self: center;
+  width: 70%;
+}
+.right-data-heading {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-self: center;
+}
+.right-data-heading h1 {
+  font-size: 3.5rem;
+  font-family: monospace;
+  padding: 2rem 2.27%;
+  align-self: center;
+}
+.profile-picture {
+  height: 16rem;
+}
+.right-top-data {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.right-top-data h1 {
+  font-size: 3rem;
+  font-family: cursive;
+}
+.right-top-data p {
+  font-size: 2rem;
+  font-family: cursive;
+}
+.image-svg1 {
+  width: 100%;
+  height: 30rem;
+}
+.sgv {
+  display: flex;
+}
+.bottom-data {
+  font-size: 2rem;
+  display: flex;
+  width: 100%;
+  height: 50rem;
+  margin: 6rem auto;
+  justify-content: space-between;
+  background-color: #ffa4a2;
+  border-radius: 3rem;
+}
+.left-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid #ffa4a2;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  padding: 2rem 4.545% 1rem 4.545%;
+  border-left: 0px;
+  background-color: #e57373;
+  height: 40rem;
+  align-self: center;
+  width: 70%;
+}
+.left-bottom h1 {
+  width: 100%;
+  font-size: 2.5rem;
+  font-family: monospace;
+}
+.right-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid #ffa4a2;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  padding: 2rem 4.545% 1rem 4.545%;
+  border-right: 0px;
+  background-color: #e57373;
+  height: 25rem;
+  align-self: center;
+  width: 25%;
+}
+.right-bottom h1 {
+  width: 100%;
+  font-size: 2.5rem;
+  font-family: monospace;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  font-size: 2rem;
+  width: 60%;
+  margin: 4rem auto;
+  margin-bottom: 0;
+  border: 3px solid #ffa4a2;
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 3rem;
+  border-bottom: 0px;
+  padding: 2rem 4.545% 1rem 4.545%;
+  background-color: #e57373;
+}
